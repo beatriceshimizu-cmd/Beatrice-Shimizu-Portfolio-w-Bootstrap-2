@@ -1,0 +1,244 @@
+
+.typography-overview-page .overview-list {
+	margin: 12px 0 0 18px;
+	padding-left: 22px;
+}
+
+.typography-overview-page .overview-list li {
+	margin: 6px 0;
+}
+
+.typography-overview-page + .site-footer .container {
+	text-align: left;
+	padding-top: 0;
+	padding-bottom: 10px;
+}
+
+.typography-overview-page + .site-footer .footer-links {
+	justify-content: left;
+	gap: 12px;
+}
+
+/* Color Theory Overview — header */
+.color-theory-overview-header {
+	text-align: center;
+	line-height: 1.3;
+}
+
+.color-theory-overview-header h1 {
+	font-size: 2.2rem;
+	font-weight: 700;
+	margin-bottom: 0.05em;
+}
+
+.color-theory-overview-header h2 {
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin: 0.3em 0 0.1em;
+}
+
+.color-theory-overview-header h3 {
+	font-size: 1rem;
+	font-weight: 700;
+	margin: 0.2em 0 0;
+}
+
+.c-red   { color: #e63329; }
+.c-green { color: #3a9c3f; }
+.c-blue  { color: #2a6cc4; }
+
+/* Left-aligned footer (Design Insights pages) */
+.footer-left.site-footer .container {
+	text-align: left;
+	padding-top: 0;
+	padding-bottom: 10px;
+}
+
+.footer-left.site-footer .footer-links {
+	justify-content: flex-start;
+	gap: 12px;
+}
+
+/* Color Theory Overview — lists */
+.color-theory-overview-page .content-block ul {
+	margin: 8px 0 0 18px;
+	padding-left: 22px;
+}
+
+.color-theory-overview-page .content-block ul li {
+	margin: 6px 0;
+}
+
+/* Color Theory Article — top heading */
+.color-theory-article-header {
+	text-align: center;
+	line-height: 1.35;
+	margin-bottom: 16px;
+}
+
+.color-theory-article-header h2 {
+	margin-bottom: 0.2em;
+}
+
+.color-theory-article-header h3 {
+	margin-top: 0;
+}
+
+.color-theory-article-page .case-title,
+.color-theory-article-page .case-link {
+	text-align: center;
+}
+
+.color-theory-article-page .case-title {
+	margin-top: 0.35em;
+	margin-bottom: 0.1em;
+}
+
+.color-theory-article-page .case-link {
+	margin-top: 0;
+	margin-bottom: 0.45em;
+}
+
+.color-theory-article-page .case-link a {
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+.color-theory-article-page .case-image img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: transform .35s cubic-bezier(0.4, 0.0, 0.2, 1.0), box-shadow .35s cubic-bezier(0.4, 0.0, 0.2, 1.0);
+	transform-origin: center;
+	will-change: transform;
+}
+
+.color-theory-article-page .case-image img:hover {
+	transform: scale(1.03);
+	box-shadow: 0 12px 24px rgba(0,0,0,.14);
+}
+
+/* Color wheel image */
+.color-wheel-figure {
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	background: transparent;
+}
+
+.color-wheel-figure img {
+	display: block;
+	margin: 0 auto;
+	transition: transform .35s cubic-bezier(0.4, 0.0, 0.2, 1.0);
+	will-change: transform;
+}
+
+.color-wheel-figure img.is-hovered {
+	transform: scale(1.06);
+}
+
+.color-wheel-figure figcaption {
+	text-align: center;
+}
+
+.color-themes-page .theme-card {
+	transition: transform .35s cubic-bezier(0.4, 0.0, 0.2, 1.0), box-shadow .35s cubic-bezier(0.4, 0.0, 0.2, 1.0);
+	transform-origin: center;
+	will-change: transform;
+}
+
+.color-themes-page .theme-card:hover,
+.color-themes-page .theme-card:focus-within,
+.color-themes-page .theme-card.is-hovered {
+	transform: scale(1.03);
+	box-shadow: 0 12px 24px rgba(0,0,0,.14);
+	z-index: 2;
+	position: relative;
+}
+
+.color-themes-page + .site-footer .container {
+	text-align: left;
+	padding-top: 0;
+	padding-bottom: 10px;
+}
+
+.color-themes-page + .site-footer .footer-links {
+	justify-content: left;
+	gap: 12px;
+}
+
+/* Font Types Article — center images and headings */
+.font-types-page .card img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 18px;
+	transition: transform .35s cubic-bezier(0.4, 0.0, 0.2, 1.0), box-shadow .35s cubic-bezier(0.4, 0.0, 0.2, 1.0);
+	will-change: transform;
+}
+
+.font-types-page .card img:hover,
+.font-types-page .card img.is-hovered {
+	transform: scale(1.03);
+	box-shadow: 0 12px 24px rgba(0,0,0,.14);
+}
+
+.font-types-page .card h3 {
+	text-align: center;
+}
+
+.font-types-page .font-link {
+	text-align: center;
+	margin: -8px 0 12px;
+}
+
+.font-types-page .font-link a {
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+/* Typography Article */
+.typography-article-page .card h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+	margin-bottom: 0.08em;
+}
+
+.typography-article-page .card > h3:first-of-type {
+  text-align: center;
+	font-size: 1.4rem;
+	margin-top: 0;
+}
+
+.typography-article-page .card h3 {
+	margin-bottom: 0.1em;
+}
+
+.typography-article-page .card img {
+	display: block;
+	max-width: 70%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	transition: transform .35s cubic-bezier(0.4, 0.0, 0.2, 1.0), box-shadow .35s cubic-bezier(0.4, 0.0, 0.2, 1.0);
+	transform-origin: center;
+	will-change: transform;
+}
+
+.typography-article-page .card img:hover {
+	transform: scale(1.06);
+	box-shadow: 0 12px 24px rgba(0,0,0,.14);
+}
+
+.typography-article-page .section-link {
+	text-align: left;
+	margin: 0 0 0.5em;
+}
+
+.typography-article-page .section-link a {
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
